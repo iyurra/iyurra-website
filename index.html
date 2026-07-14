@@ -21,6 +21,10 @@
         rel="stylesheet">
 
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 
 </head>
 
@@ -55,44 +59,107 @@
 
 
     <!-- Hero -->
+     
+<section id="home" class="hero" data-aos="fade-up">
 
-    <section id="home" class="hero" data-aos="fade-up">
+<img src="assets/images/decorations/leaf1.png" class="leaf leaf1" alt="">
+<img src="assets/images/decorations/leaf2.png" class="leaf leaf2" alt="">
+<img src="assets/images/decorations/leaf3.png" class="leaf leaf3" alt="">
 
-        <img src="assets/images/decorations/leaf1.png" class="leaf leaf1" alt="">
-        <img src="assets/images/decorations/leaf2.png" class="leaf leaf2" alt="">
-        <img src="assets/images/decorations/leaf3.png" class="leaf leaf3" alt="">
+<div class="swiper heroSwiper">
 
-        <div class="container hero-content">
+<div class="swiper-wrapper">
 
-    <div class="hero-text">
+<div class="swiper-slide">
 
-        <span class="hero-badge">
-            🌿 Traditional Nutrition
-        </span>
+<div class="container hero-content">
 
-        <h1>
-            What Your Body Needs.<br>
-            The Way Nature Intended.
-        </h1>
+<div class="hero-text">
 
-        <p>
-            Premium health mixes made from carefully selected millets,
-            pulses and natural ingredients for the entire family.
-        </p>
+<span class="hero-badge">🌾 Family Health Mix</span>
 
-        
+<h1>
+Traditional Nutrition.<br>
+For Every Family.
+</h1>
 
-    </div>
-
-    <div class="hero-image">
-
-        <img src="assets/images/hero.png" alt="Iyurra Hero">
-
-    </div>
+<p>
+Wholesome health mixes crafted with traditional millets,
+pulses and seeds for children, adults and everyday wellness.
+</p>
 
 </div>
 
-    </section>
+<div class="hero-image">
+<img src="assets/images/hero-healthmix.png" alt="Health Mix">
+</div>
+
+</div>
+
+</div>
+<div class="swiper-slide">
+
+<div class="container hero-content">
+
+<div class="hero-text">
+
+<span class="hero-badge">🥥 Cold Pressed Oils</span>
+
+<h1>
+Pure Oils.<br>
+Pressed The Traditional Way.
+</h1>
+
+<p>
+Naturally extracted coconut, sesame and groundnut oils
+with authentic aroma and uncompromised purity.
+</p>
+
+</div>
+
+<div class="hero-image">
+<img src="assets/images/oil-hero.png" alt="Cold Pressed Oils">
+</div>
+
+</div>
+
+</div>
+<div class="swiper-slide">
+
+<div class="container hero-content">
+
+<div class="hero-text">
+
+<span class="hero-badge">🌿 Iyurra Natural Foods</span>
+
+<h1>
+Rooted In Tradition.<br>
+Crafted For Tomorrow.
+</h1>
+
+<p>
+Bringing together traditional wisdom and modern nutrition
+through wholesome foods made with care.
+</p>
+
+</div>
+
+<div class="hero-image">
+<img src="assets/images/family-hero.png" alt="Iyurra">
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="swiper-pagination"></div>
+
+</div>
+
+</section>
+
+</section>
 <!-- Products Section -->
 
 <section id="products" class="products" data-aos="fade-up">
@@ -687,6 +754,7 @@ AOS.init({
 });
 </script>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="script.js"></script>
 
 </body>
