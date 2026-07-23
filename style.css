@@ -247,24 +247,56 @@ nav{
     line-height:1.8;
     font-size:18px;
 }
+.product-buttons{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    margin-top:20px;
+}
+
+.amazon-btn{
+    background:#FF9900;
+    color:#fff;
+}
+
+.amazon-btn:hover{
+    background:#E68900;
+}
+
+.flipkart-btn{
+    background:#2F5D50;
+    color:#fff;
+}
+
+.flipkart-btn:hover{
+    background:#244A40;
+}
+
 /* Product Grid */
 
 .product-grid{
-    display:flex;
-    justify-content:center;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
     gap:30px;
-    margin-top:60px;
-    flex-wrap:wrap;
+    align-items:stretch;
 }
 
 .product-card{
-    width:340px;
-    background:#fff;
-    border-radius:20px;
-    padding:30px;
-    box-shadow:0 15px 40px rgba(0,0,0,.08);
-    transition:.3s;
-    text-align:center;
+    width:100%;
+    max-width:none;
+}
+.product-buttons{
+    margin-top:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+.product-card img{
+    width:220px;
+    height:320px;
+    object-fit:contain;
+    margin:0 auto 20px;
+    display:block;
 }
 
 .product-card:hover{
@@ -708,6 +740,7 @@ nav{
     padding:15px 0;
     z-index:999;
 }
+
 
 
 
