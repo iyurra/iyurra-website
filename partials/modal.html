@@ -1,0 +1,100 @@
+<!-- ================= PRODUCT MODAL ================= -->
+
+<div class="product-modal" id="productModal">
+
+    <div class="modal-content">
+
+        <span class="close-modal">&times;</span>
+
+        <h2 id="modalTitle"></h2>
+
+        <!-- Tabs -->
+
+        <div class="modal-tabs">
+
+            <button class="tab-btn active" data-tab="images">
+                Images
+            </button>
+
+            <button class="tab-btn" data-tab="description">
+                Description
+            </button>
+
+            <button class="tab-btn" data-tab="nutrition">
+                Nutrition
+            </button>
+
+            <button class="tab-btn" data-tab="directions">
+                Directions
+            </button>
+
+        </div>
+
+        <!-- Images -->
+
+        <div id="images" class="tab-content active">
+
+    <div class="product-gallery">
+
+        <div class="main-image">
+
+            <img id="mainProductImage" src="">
+
+        </div>
+
+        <div class="thumbnail-list">
+
+            <img id="thumbFront">
+
+            <img id="thumbBack">
+
+            <img id="thumbServing">
+
+            <img id="thumbIngredients">
+
+            <img id="thumbNutrition">
+
+        </div>
+
+    </div>
+
+</div>
+
+        <!-- Description -->
+
+        <div id="description" class="tab-content">
+
+            <p id="modalDescription"></p>
+
+            <div id="whyChoose" class="why-choose-list"></div>
+
+        </div>
+
+        <!-- Nutrition -->
+
+        <div id="nutrition" class="tab-content">
+
+            <div class="nutrition-panel">
+
+                <div class="nutrition-panel-head">
+                    <span>Nutrition Facts</span>
+                    <span class="nutrition-panel-sub">per 100g serving</span>
+                </div>
+
+                <div id="nutritionTable"></div>
+
+            </div>
+
+        </div>
+
+        <!-- Directions -->
+
+        <div id="directions" class="tab-content">
+
+            <ul id="directionList"></ul>
+
+        </div>
+
+    </div>
+
+</div>
