@@ -232,7 +232,8 @@ nav a:hover::after{
     background:var(--gold);
 }
 
-.hero h1{
+.hero h1,
+.hero h2{
     font-size:56px;
     line-height:1.14;
     margin:28px 0;
@@ -307,11 +308,13 @@ nav a:hover::after{
         margin:auto;
     }
 
-    .hero h1{
+    .hero h1,
+    .hero h2{
         font-size:36px;
     }
 
     .hero h1,
+    .hero h2,
     .hero p{
         text-align:center;
     }
