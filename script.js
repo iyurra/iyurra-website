@@ -55,6 +55,21 @@ function initSite(){
         },
     });
 
+    const whyChooseSwiper = new Swiper(".whyChooseSwiper", {
+        loop: true,
+        speed: 800,
+
+        autoplay: {
+            delay: 3500,
+            disableOnInteraction: false,
+        },
+
+        pagination: {
+            el: ".whyChooseSwiper .swiper-pagination",
+            clickable: true,
+        },
+    });
+
 
     /* ===================================
        PRODUCT MODAL
