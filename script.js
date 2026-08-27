@@ -55,7 +55,9 @@ function initSite(){
         },
     });
 
-    const whyChooseSwiper = new Swiper(".whyChooseSwiper", {
+    const reviewsSwiper = new Swiper(".reviewsSwiper", {
+        slidesPerView: "auto",
+        spaceBetween: 24,
         loop: true,
         speed: 800,
 
@@ -65,7 +67,7 @@ function initSite(){
         },
 
         pagination: {
-            el: ".whyChooseSwiper .swiper-pagination",
+            el: ".reviewsSwiper .swiper-pagination",
             clickable: true,
         },
     });
