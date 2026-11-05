@@ -237,7 +237,7 @@ const products = {
 
         amazon:"https://amzn.in/d/06YBeuLP",
 
-        flipkart:"#"
+        flipkart:"https://www.flipkart.com/iyurra-cold-pressed-coconut-oil/p/itm0bbb771b5031c?pid=EDOHSGYFEEZUKZSZ"
 
     },
 
@@ -292,7 +292,7 @@ const products = {
 
         amazon:"https://amzn.in/d/0gHRAJdo",
 
-        flipkart:"#"
+        flipkart:"https://www.flipkart.com/iyurra-cold-pressed-sesame-oil/p/itm8f248ad9105a6?pid=EDOHSSHJ7HH4CPHC"
 
     },
 
@@ -347,7 +347,7 @@ const products = {
 
         amazon:"https://amzn.in/d/06auFZA8",
 
-        flipkart:"#"
+        flipkart:"https://www.flipkart.com/iyurra-cold-pressed-groundnut-oil/p/itmc852fbaf7b2b1?pid=EDOHSSH2ZNS6ZVWY"
 
     },
 
@@ -408,7 +408,7 @@ const products = {
 
         amazon:"https://amzn.in/d/0hK5Hhfw",
 
-        flipkart:"#"
+        flipkart:"https://www.flipkart.com/iyurra-traditional-idly-powder-200-g/p/itm5dc8d1a152d27?pid=RYMHSG9YHHBFQB6C"
 
     },
 
@@ -469,7 +469,7 @@ const products = {
 
         amazon:"https://amzn.in/d/03XnTacA",
 
-        flipkart:"#"
+        flipkart:"https://www.flipkart.com/iyurra-traditional-curry-leaf-podi-200-g/p/itm5fbf841f6e91a?pid=RYMHSFZ2JGBAHJ6H"
 
     },
 
@@ -529,7 +529,7 @@ const products = {
 
         amazon:"https://amzn.in/d/0hMi8Eo3",
 
-        flipkart:"#"
+        flipkart:"https://www.flipkart.com/iyurra-traditional-groundnut-podi-200-g/p/itm8146a3f680254?pid=RYMHSGYFMGX5JAG4"
 
     },
 
@@ -589,7 +589,7 @@ const products = {
 
         amazon:"https://amzn.in/d/0gVTfa3Q",
 
-        flipkart:"#"
+        flipkart:"https://www.flipkart.com/iyurra-traditional-kollu-podi-200-g/p/itm9db5bd31a59f2?pid=RYMHSG99QUMGU2CM"
 
     },
 
@@ -650,7 +650,7 @@ const products = {
 
         amazon:"https://amzn.in/d/0hGHA6HS",
 
-        flipkart:"#"
+        flipkart:"https://www.flipkart.com/iyurra-traditional-andhra-paruppu-podi-200-g/p/itmeb5c866a75c85?pid=RYMHSGXHHSC9ZYCH"
 
     },
 
@@ -711,7 +711,7 @@ const products = {
 
         amazon:"https://amzn.in/d/0bk7Zy1U",
 
-        flipkart:"#"
+        flipkart:"https://www.flipkart.com/iyurra-karuppu-kavuni-weight-loss-powder-400-g/p/itmaea79142792a9?pid=RYMHSGYMKCNQG8BZ"
 
     }
 
