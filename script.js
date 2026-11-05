@@ -55,24 +55,6 @@ function initSite(){
         },
     });
 
-    const reviewsSwiper = new Swiper(".reviewsSwiper", {
-        slidesPerView: "auto",
-        spaceBetween: 24,
-        loop: true,
-        speed: 800,
-
-        autoplay: {
-            delay: 3500,
-            disableOnInteraction: false,
-        },
-
-        pagination: {
-            el: ".reviewsSwiper .swiper-pagination",
-            clickable: true,
-        },
-    });
-
-
     /* ===================================
        PRODUCT MODAL
     =================================== */
