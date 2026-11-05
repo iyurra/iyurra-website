@@ -833,7 +833,7 @@ nav a:hover::after{
 }
 
 .reviewsSwiper .swiper-slide{
-    width:260px;
+    width:min(560px,85vw);
     height:auto;
 }
 
